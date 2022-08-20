@@ -1,0 +1,42 @@
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+#formTitle h1 {
+    margin: 22px 25%;
+}
+#formTitle h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color:black;  
+}
+form {
+    margin: 0 25%;
+}
+form p,ul,select {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #575455;
+}
+#form button {
+    background: blue;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color:#FFFFFF;
+    border: 0;
+    padding: 5px 30px;
+    text-align: center;
+    margin: 0% 20%;
+}

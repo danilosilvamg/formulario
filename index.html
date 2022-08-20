@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <div class="container">
+        <div id="formTitle">
+            <h1>Meu Formulario</h1>
+        </div>
+    </div>    
+    <div class="container">    
+        <div id="form">
+            <form action="https://formspree.io/f/xdobqrbo" method="POST">
+                <p>
+                    <label>Digite seu nome</label><br>
+                    <input placeholder="Digite algo..." type="text" required value="" name="nome">
+                </p>    
+                <p>
+                    <label>Digite sua mensagem</label><br>
+                    <textarea  rows="10" cols="30" required placeholder="Digite algo..." name="Mensagem"></textarea>
+                </p>
+                <p>
+                    <label>Escolha os esportes que você pratica</label><br>
+                    <ul>
+                        <li><input checked value="SIM" name="Judo" type="checkbox">Judô</li>
+                        <li><input value="SIM" name="Fubebol" type="checkbox">Futebol</li>
+                        <li><input value="SIM" name="Basquete" type="checkbox">Basquete</li>
+                    </ul>
+                    
+                </p>
+                <p>
+                    <label>Escolha sua cor favorita</label>
+                    <ul>
+                        <li><input value="Branco" name="corFavorita" type="radio">Branco</li>
+                        <li><input value="Azul" name="corFavorita" type="radio">Azul</li>
+                        <li><input value="Violeta" name="corFavorita" type="radio">Violeta</li>
+                    </ul>
+                </p>
+                <p>
+                    <label>Escolha sua cidade</label><br>
+                    <select>
+                        <option>Campos Gerais</option>
+                        <option selected>Alfenas</option>
+                        <option>Boa Esperanca</option>
+                    </select>
+                </p>
+                <p>
+                    <input value="SIM" name="termosDoContrato" type="checkbox">Eu aceito os termos de uso deste site
+                </p>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>    
+    </div>    
+</body>    
